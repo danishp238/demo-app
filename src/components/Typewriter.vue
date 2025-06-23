@@ -3,9 +3,10 @@ import { onMounted, ref, onBeforeUnmount } from 'vue'
 
 const phrases = [
     ["Build Stunning Visuals", "All With The Classic C++"],
-    ["Let's Innovate", "With Mom's C++ Website"],
+    ["Let's Innovate", "With Cpp Playgrounds!"],
     ["Less time", "More productivity."],
-    ["Work Smart", "Not Hard"]
+    ["Work Smart", "Not Hard"],
+    ["Let's Shine", "With Cpp Playgrounds!"]
 ];
 
 const part1 = ref(null)
