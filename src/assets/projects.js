@@ -1,3 +1,5 @@
+import GroceryGame from '/src/assets/blogs/grocery-game.html?raw'
+
 const projects = [
   {
     id: 1,
@@ -5,6 +7,7 @@ const projects = [
     description: 'Build a tower defense game with pathfinding and waves.',
     image: new URL('/images/defense-game.jpg', import.meta.url).href,
     date: 'Posted on June 15, 2025 – 10:00 AM',
+    content: GroceryGame
   },
   {
     id: 2,
