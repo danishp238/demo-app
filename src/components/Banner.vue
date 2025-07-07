@@ -96,7 +96,7 @@ onMounted(() => {
 
 <template>
   <h1 class="font-serif text-center text-2xl sm:text-3xl mt-6 sm:mt-1" data-aos="zoom-out" data-aos-delay="100">
-   CPP Playgrounds
+    Demo App
   </h1>
 
   <Typewriter />
@@ -107,24 +107,25 @@ onMounted(() => {
     class="flex sm:flex-row flex-col justify-around items-center w-full min-h-screen p-4 space-y-6 md:space-y-0 mt-20 md:mt-36">
     <canvas ref="canvasRef" class="w-1/2 sm:w-1/2 md:w-1/2 h-[300px] md:h-[60vh] bg-black"></canvas>
     <div class="w-full sm:w-1/3 md:w-1/3 text-xl md:text-2xl text-white" data-aos="fade-left" data-aos-delay="250">
-      
+
       <br>
-      <p>Unlock your game development potential with our comprehensive C++ guides and step-by-step walkthroughs. Whether
-      you're a beginner or looking to refine your skills, our expertly crafted tutorials cover everything from graphics
-      and game loops to physics engines and AI logic. Learn how to build powerful, high-performance games using C++, the
-      industry-standard language behind many of today’s biggest titles. With real-world examples, source code snippets,
-      and hands-on projects, we make it easy for you to master the art of game development. Start building your dream
-      game today — no experience needed!
+      <p>Join the Ultimate Gaming Live Stream Experience.
+        Step into the world of real-time entertainment with our cutting-edge live streaming platform built for gamers,
+        by gamers. Whether you're a casual player or an esports pro, our platform offers the tools you need to stream,
+        grow your audience, and connect with a vibrant global community. From crystal-clear video quality and
+        low-latency streams to interactive chat, emotes, and custom channel features — we’ve got everything to level up
+        your stream. Share your gameplay, build your brand, and turn passion into performance. Go live and let the world
+        watch you play!
       </p>
     </div>
   </div>
 
   <Slider></Slider>
 
-   <!-- <Footer></Footer> -->
+  <!-- <Footer></Footer> -->
 
-   <div class="relative z-10 text-center mt-12 mb-3 text-sm">
-      &copy; 2025 CodeQuest Games. All rights reserved.
-    </div>
+  <div class="relative z-10 text-center mt-12 mb-3 text-sm">
+    &copy; 2025 CodeQuest Games. All rights reserved.
+  </div>
 
 </template>

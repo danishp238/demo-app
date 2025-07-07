@@ -2,11 +2,25 @@
 import { onMounted, ref, onBeforeUnmount } from 'vue'
 
 const phrases = [
-    ["Build Stunning Visuals", "All With The Classic C++"],
-    ["Let's Innovate", "With Cpp Playgrounds!"],
-    ["Less time", "More productivity."],
-    ["Work Smart", "Not Hard"],
-    ["Let's Shine", "With Cpp Playgrounds!"]
+    ["Create. Explore.", "All in the Demo App"]
+
+    ["Your Ideas,", "Powered by Demo App"]
+
+    ["Code Freely,", "With Demo App Magic!"]
+
+    ["One App,", "Endless Demos."]
+
+    ["Test. Tweak.", "Repeat with Demo App"]
+
+    ["Less Hassle,", "More Demos."]
+
+    ["Start Simple,", "Build Big with Demo App"]
+
+    ["Let's Elevate", "With Demo App!"]
+
+    ["Prototype Fast,", "With Demo App Power"]
+
+    ["Where Code Meets Creativity", "That’s Demo App!"]
 ];
 
 const part1 = ref(null)
