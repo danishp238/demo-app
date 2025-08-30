@@ -2,25 +2,25 @@
 import { onMounted, ref, onBeforeUnmount } from 'vue'
 
 const phrases = [
-    ["Create. Explore.", "All in the Demo App"]
+    ["Create. Explore.", "All in the Coder's Heaven"],
 
-    ["Your Ideas,", "Powered by Demo App"]
+    ["Your Ideas,", "Powered by Coder's Heaven"],
 
-    ["Code Freely,", "With Demo App Magic!"]
+    ["Code Freely,", "With Coder's Heaven Magic!"],
 
-    ["One App,", "Endless Demos."]
+    ["One App,", "Endless Demos."],
 
-    ["Test. Tweak.", "Repeat with Demo App"]
+    ["Test. Tweak.", "Repeat with Coder's Heaven"],
 
-    ["Less Hassle,", "More Demos."]
+    ["Less Hassle,", "More Demos."],
 
-    ["Start Simple,", "Build Big with Demo App"]
+    ["Start Simple,", "Build Big with Coder's Heaven"],
 
-    ["Let's Elevate", "With Demo App!"]
+    ["Let's Elevate", "With Coder's Heaven"],
 
-    ["Prototype Fast,", "With Demo App Power"]
+    ["Prototype Fast,", "With Coder's Heaven Power"],
 
-    ["Where Code Meets Creativity", "That’s Demo App!"]
+    ["Where Code Meets Creativity", "That’s Coder's Heaven!"],
 ];
 
 const part1 = ref(null)
